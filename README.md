@@ -13,3 +13,4 @@ Check [this link](https://github.com/r-devel/c-book-club/) to get details of the
 ## Notes on session 1
 
 + In section 1.2, the command that worked in my case is `gcc -std=c99 -Wall -lm -o getting-started getting-started.c`. However, since the file name in my case is `test_examle_code.c`, I used the command `gcc -std=c99 -Wall -lm -o getting-started test_examle_code.c`. 
++ Compiling the file `bad.c` generates the output as the `getteing-started` file, but with multiple warnings.

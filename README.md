@@ -24,3 +24,4 @@ Check [this link](https://github.com/r-devel/c-book-club/) to get details of the
     + To state the lenght of the object `A`
     + To refer to the index or position in object `A`
     + To extract the values from a desired index of `A`
++ _in reference to `Exs 1`_ adding if control over print command in the getting-started code does not print the value at A[0]. The output is stored in `exs1.exe` and the code in is `exs1.c`

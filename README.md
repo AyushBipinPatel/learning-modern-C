@@ -12,8 +12,9 @@ Check [this link](https://github.com/r-devel/c-book-club/) to get details of the
 
 ## Notes on session 1
 
-+ In section 1.2, the command that worked in my case is `gcc -std=c99 -Wall -lm -o getting-started getting-started.c`. However, since the file name in my case is `test_examle_code.c`, I used the command `gcc -std=c99 -Wall -lm -o getting-started test_examle_code.c`. 
++ In section 1.2, the command that worked in my case is `gcc -std=c99 -Wall -lm -o getting-started getting-started.c`. However, since the file name in my case is `test_examle_code.c`, I used the command `gcc -std=c99 -Wall -lm -o getting-started test_examle_code.c`. _in reference to `Exs 3`._
 + Compiling the file `bad.c` generates the output as the `getteing-started` file, but with multiple warnings.
++ _in reference to `Exs 6`_ see file `correction-attempt-bad.c`
 + The third difference between the files `getting-started.c`and `bad.c` could be one of two things. First, how the object `i` is declared. Second, the return value of the main function. _in reference to `Exs 7`._
 +  _in reference to `Exs 9`._ The different uses of {} in listing 1.1 or `getting-started.c`:
     + To enclose the body of the `main` function
